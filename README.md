@@ -1,0 +1,2 @@
+# DiscordReklamBotu
+ Python Discord Bot
