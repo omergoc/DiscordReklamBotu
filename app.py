@@ -11,7 +11,7 @@ async def on_ready():
     print("Başladı")
     
 @bot.command()
-async def gonder(ctx, *, args=None):
+async def send(ctx, *, args=None):
     if args != None:
         members = ctx.guild.members
         for member in members:
